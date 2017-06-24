@@ -62,7 +62,7 @@ class Card
   end
 end
 
-class BingiMachine
+class BingoMachine
 
   def initialize
     @numbers = (1..75).to_a
@@ -77,7 +77,7 @@ class BingiMachine
   end
 end
 
-machine = BingiMachine.new
+machine = BingoMachine.new
 card = Card.new
 
 puts "ビンゴスタートです！！"
